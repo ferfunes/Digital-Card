@@ -1,0 +1,116 @@
+body {
+  background-color: #23252c;
+  font-family: "Inter", sans-serif;
+}
+
+/* APP */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+/* CARD WRAPER */
+.card-wraper {
+  background-color: #1a1b21;
+  width: 300px;
+  border-radius: 0 0 10px 10px;
+}
+
+.profile-img {
+  border-radius: 10px 10px 0 0;
+  width: 300px;
+}
+
+/* CARD BODY */
+.card-body {
+  text-align: center;
+  padding: 0 25px 0 25px;
+}
+
+.card-body h1 {
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.card-body p {
+  color: #f3bf99;
+  margin-top: 5px;
+  font-weight: 300;
+}
+
+/* BUTTON */
+.buttons-wraper {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+  background-color: #ffffff;
+  text-align: center;
+  margin-block: 10px;
+}
+
+.buttons-wraper a {
+  text-decoration: none;
+  color: black;
+}
+
+.buttons-wraper :nth-last-child(2) {
+  background-color: #5093e2;
+  color: white;
+}
+
+.button-icon-1 {
+  padding-right: 5px;
+}
+.button-icon-2 {
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+/* CONTENT WRAPER */
+.content-wraper {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.content-wraper h3 {
+  font-weight: 500;
+  color: white;
+  margin-bottom: 0;
+}
+
+.content-wraper p {
+  color: #9b9797;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+}
+.footer ul {
+  display: flex;
+  padding: 0;
+}
+
+.footer ul > li {
+  list-style: none;
+  margin: 0 20px 0 20px;
+}
+
+.footer svg {
+  color: #918e9b;
+  font-size: 30px;
+}
